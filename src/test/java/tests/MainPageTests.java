@@ -19,14 +19,4 @@ public class MainPageTests extends TestBase {
         step("Check label in header", () ->
                 $(".home-campaign-hero").shouldHave(text("Let’s build from here")));
     }
-
-    @Test
-    void secondTest() {
-
-    }
-
-    @Test
-    void thirdTest() {
-
-    }
 }
