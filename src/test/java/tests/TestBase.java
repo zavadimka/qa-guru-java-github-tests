@@ -23,6 +23,7 @@ public class TestBase {
                 "enableVNC", true,
                 "enableVideo", true
         ));
+        Configuration.browserCapabilities = capabilities;
 
         // Подключаем удалённый браузер для выполнения тестов
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
