@@ -29,11 +29,6 @@ public class CSSXpath {
         $(withText("llo, qa.g"));
 
 
-
-
-
-
-
         $("[data-testid=email]").setValue("1");
         $(by("data-testid", "email")).setValue("1");
         $x("//*[@data-testid='email']").setValue("1");
